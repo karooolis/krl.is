@@ -286,13 +286,15 @@ export default async function Home() {
       <Container className="mt-9">
         <div className="max-w-2xl">
           <h1 className="text-4xl font-bold tracking-tight text-zinc-800 sm:text-5xl dark:text-zinc-100">
-            Software designer, founder, and amateur astronaut.
+            Product-minded software engineer.
           </h1>
           <p className="mt-6 text-base text-zinc-600 dark:text-zinc-400">
-            I’m Karolis, a software designer and entrepreneur based in New York
-            City. I’m the founder and CEO of Planetaria, where we develop
-            technologies that empower regular people to explore space on their
-            own terms.
+            I am a full-stack software engineer turned smart contracts auditor.
+            I've worked at companies like Uber, Toptal and Volvo Cars. I've also
+            built my own side-projects, most of which are now are defunct, or
+            have been sold. For the last year I've turned my focus to work in
+            the Web3 space, and am honing my skills as a smart contracts
+            auditor. You'll see me on twitter sharing my learnings.
           </p>
           <div className="mt-6 flex gap-6">
             <SocialLink
@@ -325,7 +327,7 @@ export default async function Home() {
             ))}
           </div>
           <div className="space-y-10 lg:pl-16 xl:pl-24">
-            <Newsletter />
+            {/* <Newsletter /> */}
             <Resume />
           </div>
         </div>
