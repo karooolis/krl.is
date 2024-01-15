@@ -11,6 +11,9 @@ import {
   LinkedInIcon,
   TwitterIcon,
 } from '@/components/SocialIcons'
+
+import Projects from '@/components/Projects'
+
 import logoAirbnb from '@/images/logos/airbnb.svg'
 import logoFacebook from '@/images/logos/facebook.svg'
 import logoPlanetaria from '@/images/logos/planetaria.svg'
@@ -288,7 +291,7 @@ export default async function Home() {
           <h1 className="text-4xl font-bold tracking-tight text-zinc-800 sm:text-5xl dark:text-zinc-100">
             Product-minded software engineer.
           </h1>
-          <p className="mt-6 text-base text-zinc-600 dark:text-zinc-400">
+          <p className="mt-6 text-lg text-zinc-600 dark:text-zinc-400">
             I am a full-stack software engineer turned smart contracts auditor.
             I've worked at companies like Uber, Toptal and Volvo Cars. I've also
             built my own side-projects, most of which are now are defunct, or
@@ -318,7 +321,11 @@ export default async function Home() {
           </div>
         </div>
       </Container>
+
       <Photos />
+
+      <Projects />
+
       <Container className="mt-24 md:mt-28">
         <div className="mx-auto grid max-w-xl grid-cols-1 gap-y-20 lg:max-w-none lg:grid-cols-2">
           <div className="flex flex-col gap-16">
@@ -327,7 +334,7 @@ export default async function Home() {
             ))}
           </div>
           <div className="space-y-10 lg:pl-16 xl:pl-24">
-            {/* <Newsletter /> */}
+            <Newsletter />
             <Resume />
           </div>
         </div>
