@@ -287,12 +287,12 @@ export default async function Home() {
             {/* Product-minded software engineer */}
           </h1>
           <p className="mt-6 text-lg text-zinc-600 dark:text-zinc-400">
-            I am a full-stack software engineer turned smart contracts auditor.
-            I've worked at companies like Uber, Toptal and Volvo Cars. I've also
-            built my own side-projects, most of which are now are defunct, or
-            have been sold. For the last year I've turned my focus to work in
-            the Web3 space, and am honing my skills as a smart contracts
-            auditor. You'll see me on twitter sharing my learnings.
+            I am a product-minded full-stack software engineer. I've worked at
+            companies like Uber, Toptal and Volvo Cars. I've also built my own
+            side-projects, most of which are now are defunct, or have been sold.
+            For the last year I've turned my focus to work in the Web3 space,
+            and am honing my skills as a smart contracts auditor. You'll see me
+            on twitter sharing my learnings.
           </p>
           <div className="mt-6 flex gap-6">
             <SocialLink
