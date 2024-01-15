@@ -7,36 +7,44 @@ import logoAnimaginary from '@/images/logos/animaginary.svg'
 import logoCosmos from '@/images/logos/cosmos.svg'
 import logoHelioStream from '@/images/logos/helio-stream.svg'
 import logoOpenShuttle from '@/images/logos/open-shuttle.svg'
-import logoPlanetaria from '@/images/logos/planetaria.svg'
+import logoPlaceholderNFT from '@/images/projects-logos/placeholder-nft.png'
+import logoSmartContractsBuilder from '@/images/projects-logos/smart-contracts-builder.png'
+import logoExplainoor from '@/images/projects-logos/explainoor.png'
 
 const projects = [
   {
     name: 'PlaceholderNFT',
     description:
-      'Creating technology to empower civilians to explore space on their own terms.',
-    link: { href: 'http://planetaria.tech', label: 'planetaria.tech' },
-    logo: logoPlanetaria,
+      'Unlimited supply, fully on-chain, NFT collection available on any EVM-compatible chain. You may mint it freely, and use it for testing, or your own satisfaction.',
+    link: {
+      href: 'https://www.placeholdernft.com/',
+      label: 'placeholdernft.com',
+    },
+    logo: logoPlaceholderNFT,
   },
   {
     name: 'Smart Contracts Builder',
     description:
-      'High performance web animation library, hand-written in optimized WASM.',
-    link: { href: '#', label: 'github.com' },
-    logo: logoAnimaginary,
+      'Build the most popular smart contracts in a few clicks. No coding required.',
+    link: {
+      href: 'https://www.smart-contracts-builder.com/',
+      label: 'smart-contracts-builder.com',
+    },
+    logo: logoSmartContractsBuilder,
   },
-  {
-    name: 'CoachGPT',
-    description:
-      'Real-time video streaming library, optimized for interstellar transmission.',
-    link: { href: '#', label: 'github.com' },
-    logo: logoHelioStream,
-  },
+  // {
+  //   name: 'CoachGPT',
+  //   description:
+  //     'Real-time video streaming library, optimized for interstellar transmission.',
+  //   link: { href: '#', label: 'github.com' },
+  //   logo: logoHelioStream,
+  // },
   {
     name: 'Explainoor',
     description:
-      'The operating system that powers our Planetaria space shuttles.',
-    link: { href: '#', label: 'github.com' },
-    logo: logoCosmos,
+      'Explainoor is an AI-powered VS Code plugin that reads your code and provides human-readable explanations.',
+    link: { href: 'https://www.explainoor.xyz/', label: 'explainoor.xyz' },
+    logo: logoExplainoor,
   },
 ]
 
