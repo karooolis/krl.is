@@ -5,15 +5,12 @@ import clsx from 'clsx'
 import { Button } from '@/components/Button'
 import { Card } from '@/components/Card'
 import { Container } from '@/components/Container'
-import {
-  GitHubIcon,
-  LinkedInIcon,
-  TwitterIcon,
-} from '@/components/SocialIcons'
+import { GitHubIcon, LinkedInIcon, TwitterIcon } from '@/components/SocialIcons'
 
 import Companies from '@/components/Companies'
 import Projects from '@/components/Projects'
 import TechStack from '@/components/TechStack'
+import Testimonials from '@/components/Testimonials'
 
 import logoPlanetaria from '@/images/logos/planetaria.svg'
 import logoUber from '@/images/logos/uber.svg'
@@ -325,6 +322,8 @@ export default async function Home() {
       <Companies />
 
       <Projects />
+
+      <Testimonials />
 
       <TechStack />
 
