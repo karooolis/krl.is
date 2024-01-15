@@ -7,6 +7,13 @@ import logoPlaceholderNFT from '@/images/projects-logos/placeholder-nft.png'
 import logoSmartContractsBuilder from '@/images/projects-logos/smart-contracts-builder.png'
 import logoExplainoor from '@/images/projects-logos/explainoor.png'
 
+import logoUber from '@/images/logos/uber.svg'
+import logoVolvo from '@/images/logos/volvo-cars.png'
+import logoNielsen from '@/images/logos/nielsen.png'
+import logoToptal from '@/images/logos/toptal.png'
+import logoBT from '@/images/logos/bt.svg'
+import logoMacro from '@/images/logos/macro-small.png'
+
 const projects = [
   {
     name: 'PlaceholderNFT',
@@ -57,16 +64,76 @@ function LinkIcon(props: React.ComponentPropsWithoutRef<'svg'>) {
 
 export const metadata: Metadata = {
   title: 'Projects',
-  description: 'Things I’ve made.',
+  description: 'Companies I’ve worked with.',
 }
 
 export default function Projects() {
   return (
     <SimpleLayout
-      title="Things I’ve made."
-      intro="I’ve worked on tons of little projects over the years but these are the ones that I’m most proud of. Many of them are open-source, so if you see something that piques your interest, check out the code and contribute if you have ideas for how it can be improved."
+      // title="Companies I’ve worked with."
+      title="You’ll be in good company"
+      intro="I’ve worked with small and large organisations, along with freelance projects."
     >
       <ul
+        role="list"
+        className="grid grid-cols-1 gap-x-12 gap-y-16 sm:grid-cols-2 lg:grid-cols-6"
+      >
+        <li>
+          <Image
+            src={logoVolvo}
+            alt=""
+            className="h-16 w-16"
+            unoptimized
+          />
+        </li>
+
+        <li>
+          <Image
+            src={logoUber}
+            alt=""
+            className="h-16 w-16"
+            unoptimized
+          />
+        </li>
+
+        <li>
+          <Image
+            src={logoNielsen}
+            alt=""
+            className="h-16 w-16"
+            unoptimized
+          />
+        </li>
+
+        <li>
+          <Image
+            src={logoToptal}
+            alt=""
+            className="h-16 w-16"
+            unoptimized
+          />
+        </li>
+
+        <li>
+          <Image
+            src={logoBT}
+            alt=""
+            className="h-16 w-16"
+            unoptimized
+          />
+        </li>
+
+        <li>
+          <Image
+            src={logoMacro}
+            alt=""
+            className="h-16 w-16"
+            unoptimized
+          />
+        </li>
+      </ul>
+
+      {/* <ul
         role="list"
         className="grid grid-cols-1 gap-x-12 gap-y-16 sm:grid-cols-2 lg:grid-cols-3"
       >
@@ -81,13 +148,7 @@ export default function Projects() {
               />
             </div>
             <h2 className="mt-6 text-base font-semibold text-zinc-800 dark:text-zinc-100">
-              <Card.Link
-                href={project.link.href}
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                {project.name}
-              </Card.Link>
+              <Card.Link href={project.link.href}>{project.name}</Card.Link>
             </h2>
             <Card.Description>{project.description}</Card.Description>
             <p className="relative z-10 mt-6 flex text-sm font-medium text-zinc-400 transition group-hover:text-teal-500 dark:text-zinc-200">
@@ -96,7 +157,7 @@ export default function Projects() {
             </p>
           </Card>
         ))}
-      </ul>
+      </ul> */}
     </SimpleLayout>
   )
 }

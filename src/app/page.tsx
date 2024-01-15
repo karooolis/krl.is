@@ -7,18 +7,15 @@ import { Card } from '@/components/Card'
 import { Container } from '@/components/Container'
 import {
   GitHubIcon,
-  InstagramIcon,
   LinkedInIcon,
   TwitterIcon,
 } from '@/components/SocialIcons'
 
+import Companies from '@/components/Companies'
 import Projects from '@/components/Projects'
+import TechStack from '@/components/TechStack'
 
-import logoAirbnb from '@/images/logos/airbnb.svg'
-import logoFacebook from '@/images/logos/facebook.svg'
 import logoPlanetaria from '@/images/logos/planetaria.svg'
-import logoStarbucks from '@/images/logos/starbucks.svg'
-
 import logoUber from '@/images/logos/uber.svg'
 import logoVolvo from '@/images/logos/volvo-cars.png'
 import logoNielsen from '@/images/logos/nielsen.png'
@@ -289,7 +286,8 @@ export default async function Home() {
       <Container className="mt-9">
         <div className="max-w-2xl">
           <h1 className="text-4xl font-bold tracking-tight text-zinc-800 sm:text-5xl dark:text-zinc-100">
-            Product-minded software engineer.
+            Do you need a full-stack developer?
+            {/* Product-minded software engineer */}
           </h1>
           <p className="mt-6 text-lg text-zinc-600 dark:text-zinc-400">
             I am a full-stack software engineer turned smart contracts auditor.
@@ -324,9 +322,19 @@ export default async function Home() {
 
       <Photos />
 
+      <Companies />
+
       <Projects />
 
-      <Container className="mt-24 md:mt-28">
+      <TechStack />
+
+      {/* <Newsletter /> */}
+
+      {/* <Container className="mt-24 md:mt-28">
+        <Resume />
+      </Container> */}
+
+      {/* <Container className="mt-24 md:mt-28">
         <div className="mx-auto grid max-w-xl grid-cols-1 gap-y-20 lg:max-w-none lg:grid-cols-2">
           <div className="flex flex-col gap-16">
             {articles.map((article) => (
@@ -338,7 +346,7 @@ export default async function Home() {
             <Resume />
           </div>
         </div>
-      </Container>
+      </Container> */}
     </>
   )
 }
