@@ -76,7 +76,7 @@ export default function Projects() {
     >
       <ul
         role="list"
-        className="grid grid-cols-1 gap-x-12 gap-y-16 sm:grid-cols-2 lg:grid-cols-6"
+        className="grid grid-cols-3 gap-x-12 gap-y-16 sm:grid-cols-3 lg:grid-cols-6"
       >
         <li>
           <Image
