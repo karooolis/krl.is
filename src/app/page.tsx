@@ -11,6 +11,7 @@ import Companies from '@/components/Companies'
 import Projects from '@/components/Projects'
 import TechStack from '@/components/TechStack'
 import Testimonials from '@/components/Testimonials'
+import Contact from '@/components/Contact'
 
 import logoPlanetaria from '@/images/logos/planetaria.svg'
 import logoUber from '@/images/logos/uber.svg'
@@ -326,6 +327,8 @@ export default async function Home() {
       <Testimonials />
 
       <TechStack />
+
+      {/* <Contact /> */}
 
       {/* <Newsletter /> */}
 
