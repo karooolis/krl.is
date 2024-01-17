@@ -5,7 +5,12 @@ import clsx from 'clsx'
 import { Button } from '@/components/Button'
 import { Card } from '@/components/Card'
 import { Container } from '@/components/Container'
-import { GitHubIcon, LinkedInIcon, TwitterIcon } from '@/components/SocialIcons'
+import {
+  GitHubIcon,
+  LinkedInIcon,
+  TwitterIcon,
+  MailIcon,
+} from '@/components/SocialIcons'
 
 import Companies from '@/components/Companies'
 import Projects from '@/components/Projects'
@@ -26,29 +31,6 @@ import image4 from '@/images/photos/image-4.jpeg'
 import image5 from '@/images/photos/image-5.jpeg'
 import { type ArticleWithSlug, getAllArticles } from '@/lib/articles'
 import { formatDate } from '@/lib/formatDate'
-
-function MailIcon(props: React.ComponentPropsWithoutRef<'svg'>) {
-  return (
-    <svg
-      viewBox="0 0 24 24"
-      fill="none"
-      strokeWidth="1.5"
-      strokeLinecap="round"
-      strokeLinejoin="round"
-      aria-hidden="true"
-      {...props}
-    >
-      <path
-        d="M2.75 7.75a3 3 0 0 1 3-3h12.5a3 3 0 0 1 3 3v8.5a3 3 0 0 1-3 3H5.75a3 3 0 0 1-3-3v-8.5Z"
-        className="fill-zinc-100 stroke-zinc-400 dark:fill-zinc-100/10 dark:stroke-zinc-500"
-      />
-      <path
-        d="m4 6 6.024 5.479a2.915 2.915 0 0 0 3.952 0L20 6"
-        className="stroke-zinc-400 dark:stroke-zinc-500"
-      />
-    </svg>
-  )
-}
 
 function BriefcaseIcon(props: React.ComponentPropsWithoutRef<'svg'>) {
   return (
@@ -287,14 +269,53 @@ export default async function Home() {
             Do you need a full-stack developer?
             {/* Product-minded software engineer */}
           </h1>
+
           <p className="mt-6 text-lg text-zinc-600 dark:text-zinc-400">
-            I am a product-minded full-stack software engineer. I've worked at
-            companies like Uber, Toptal and Volvo Cars. I've also built my own
-            side-projects, most of which are now are defunct, or have been sold.
-            For the last year I've turned my focus to work in the Web3 space,
-            and am honing my skills as a smart contracts auditor. You'll see me
-            on twitter sharing my learnings.
+            My name is Karolis Ramanauskas 👋 I'm a software developer who
+            enjoys building and designing products. I also write occasionally.
+            I'm currently splitting my time between consulting work and my own
+            projects.
           </p>
+
+          <p className="mt-6 text-lg text-zinc-600 dark:text-zinc-400">
+            If you'd like to get in touch with me{' '}
+            <a href="mailto:hi@krl.is" className="font-medium text-teal-500">
+              email
+            </a>{' '}
+            and{' '}
+            <a
+              href="https://twitter.com/karooolis"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="font-medium text-teal-500"
+            >
+              twitter
+            </a>{' '}
+            are your best channels.
+          </p>
+
+          <p className="mt-6 text-lg text-zinc-600 dark:text-zinc-400">
+            P.S. If you like something you read here, please feel free to share
+            it and let me know. It's always nice to get feedback.
+          </p>
+
+          {/* <ul>
+            <li>A senior WordPress expert with over 10 years experience?</li>
+            <li>
+              A reliable, full stack freelance WordPress developer comfortable
+              with custom, advanced and enterprise scale work?
+            </li>
+            <li>
+              A freelance WordPress developer who can help with Gutenberg, the
+              REST API and using WordPress as a headless CMS?
+            </li>
+            <li>
+              Guaranteed, professional development from someone delivering
+              successful projects for start ups, medium, large and global
+              businesses, big brands and WordPress VIP agencies?
+            </li>
+          </ul> */}
+
           <div className="mt-6 flex gap-6">
             <SocialLink
               href="https://twitter.com/karooolis"
@@ -314,6 +335,7 @@ export default async function Home() {
               aria-label="Follow on LinkedIn"
               icon={LinkedInIcon}
             />
+            <SocialLink href="mailto:hi@krl.is" icon={MailIcon} />
           </div>
         </div>
       </Container>
