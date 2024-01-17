@@ -113,11 +113,6 @@ export default function Uses() {
             daily note.
           </Tool> */}
 
-          <Tool title="Calendly">
-            Great tool for scheduling meetings while protecting my calendar and
-            making sure I still have lots of time for deep work during the week.
-          </Tool>
-
           <Tool title="Obsidian">
             Great tool for scheduling meetings while protecting my calendar and
             making sure I still have lots of time for deep work during the week.
