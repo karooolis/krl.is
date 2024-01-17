@@ -12,7 +12,7 @@ import logoReact from '@/images/tech-logos/react.png'
 import logoNextjs from '@/images/tech-logos/nextjs.svg'
 import logoSolidity from '@/images/tech-logos/solidity.svg'
 import logoJs from '@/images/tech-logos/js.png'
-import logoTailwind from '@/images/tech-logos/tailwindcss.png'
+import logoTailwind from '@/images/tech-logos/tailwindcss.svg'
 
 const projects = [
   {
@@ -70,7 +70,7 @@ export default function Projects() {
     >
       <ul
         role="list"
-        className="grid grid-cols-1 gap-x-4 gap-y-8 sm:grid-cols-2 lg:grid-cols-3"
+        className="grid grid-cols-2 gap-x-4 gap-y-8 sm:grid-cols-2 lg:grid-cols-3"
       >
         <li className="flex items-center gap-3">
           <div className="relative z-10 flex h-12 w-12 items-center justify-center rounded-full bg-white shadow-md shadow-zinc-800/5 ring-1 ring-zinc-900/5 dark:border dark:border-zinc-700/50 dark:bg-zinc-800 dark:ring-0">
@@ -88,7 +88,7 @@ export default function Projects() {
 
         <li className="flex items-center gap-3">
           <div className="relative z-10 flex h-12 w-12 items-center justify-center rounded-full bg-white shadow-md shadow-zinc-800/5 ring-1 ring-zinc-900/5 dark:border dark:border-zinc-700/50 dark:bg-zinc-800 dark:ring-0">
-            <Image src={logoNextjs} alt="" className="h-8 w-8" unoptimized />
+            <Image src={logoNextjs} alt="" className="h-8 w-8 dark:invert" unoptimized />
           </div>
           <p>Next.js</p>
         </li>
@@ -109,7 +109,7 @@ export default function Projects() {
 
         <li className="flex items-center gap-3">
           <div className="relative z-10 flex h-12 w-12 items-center justify-center rounded-full bg-white shadow-md shadow-zinc-800/5 ring-1 ring-zinc-900/5 dark:border dark:border-zinc-700/50 dark:bg-zinc-800 dark:ring-0">
-            <Image src={logoSolidity} alt="" className="h-8 w-8" unoptimized />
+            <Image src={logoSolidity} alt="" className="h-8 w-8 dark:invert" unoptimized />
           </div>
           <p>Solidity</p>
         </li>

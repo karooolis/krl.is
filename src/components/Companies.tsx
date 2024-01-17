@@ -82,7 +82,7 @@ export default function Projects() {
           <Image
             src={logoVolvo}
             alt=""
-            className="h-16 w-16"
+            className="h-16 w-16 dark:invert"
             unoptimized
           />
         </li>
@@ -91,7 +91,7 @@ export default function Projects() {
           <Image
             src={logoUber}
             alt=""
-            className="h-16 w-16"
+            className="h-16 w-16 dark:invert"
             unoptimized
           />
         </li>
