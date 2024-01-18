@@ -350,7 +350,7 @@ export default async function Home() {
 
       <TechStack />
 
-      {/* <Contact /> */}
+      <Contact />
 
       {/* <Newsletter /> */}
 
