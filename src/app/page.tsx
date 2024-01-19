@@ -115,7 +115,7 @@ function Newsletter() {
           placeholder="Email address"
           aria-label="Email address"
           required
-          className="min-w-0 flex-auto appearance-none rounded-md border border-zinc-900/10 bg-white px-3 py-[calc(theme(spacing.2)-1px)] shadow-md shadow-zinc-800/5 placeholder:text-zinc-400 focus:border-teal-500 focus:outline-none focus:ring-4 focus:ring-teal-500/10 sm:text-sm dark:border-zinc-700 dark:bg-zinc-700/[0.15] dark:text-zinc-200 dark:placeholder:text-zinc-500 dark:focus:border-teal-400 dark:focus:ring-teal-400/10"
+          className="min-w-0 flex-auto appearance-none rounded-md border border-zinc-900/10 bg-white px-3 py-[calc(theme(spacing.2)-1px)] shadow-md shadow-zinc-800/5 placeholder:text-zinc-400 focus:border-lime-500 focus:outline-none focus:ring-4 focus:ring-lime-500/10 sm:text-sm dark:border-zinc-700 dark:bg-zinc-700/[0.15] dark:text-zinc-200 dark:placeholder:text-zinc-500 dark:focus:border-lime-400 dark:focus:ring-lime-400/10"
         />
         <Button type="submit" className="ml-4 flex-none">
           Join
@@ -279,7 +279,7 @@ export default async function Home() {
 
           <p className="mt-6 text-lg text-zinc-600 dark:text-zinc-400">
             If you'd like to get in touch with me{' '}
-            <a href="mailto:hi@krl.is" className="font-medium text-teal-500">
+            <a href="mailto:hi@krl.is" className="font-medium text-lime-500">
               email
             </a>{' '}
             and{' '}
@@ -287,7 +287,7 @@ export default async function Home() {
               href="https://twitter.com/karooolis"
               target="_blank"
               rel="noopener noreferrer"
-              className="font-medium text-teal-500"
+              className="font-medium text-lime-500"
             >
               twitter
             </a>{' '}
