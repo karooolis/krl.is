@@ -266,7 +266,11 @@ export default async function Home() {
       <Container className="mt-9">
         <div className="max-w-2xl">
           <h1 className="text-4xl font-bold tracking-tight text-zinc-800 sm:text-5xl dark:text-zinc-100">
-            Do you need a full-stack developer?
+            Do you need a{' '}
+            <span>
+              full-stack
+            </span>{' '}
+            developer?
             {/* Product-minded software engineer */}
           </h1>
 
@@ -279,7 +283,10 @@ export default async function Home() {
 
           <p className="mt-6 text-lg text-zinc-600 dark:text-zinc-400">
             If you'd like to get in touch with me{' '}
-            <a href="mailto:hi@krl.is" className="font-medium text-lime-500">
+            <a
+              href="mailto:hi@krl.is"
+              className="font-medium text-lime-500 underline decoration-lime-500"
+            >
               email
             </a>{' '}
             and{' '}
@@ -287,7 +294,7 @@ export default async function Home() {
               href="https://twitter.com/karooolis"
               target="_blank"
               rel="noopener noreferrer"
-              className="font-medium text-lime-500"
+              className="font-medium text-lime-500 underline decoration-lime-500"
             >
               twitter
             </a>{' '}
