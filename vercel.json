@@ -1,8 +1,8 @@
 {
   "rewrites": [
     {
-      "source": "/cv/(.*)",
-      "destination": "https://www.google.com/$1"
+      "source": "/cv",
+      "destination": "https://cv-one-nu.vercel.app"
     }
   ]
 }
