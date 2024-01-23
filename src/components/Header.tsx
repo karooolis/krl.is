@@ -74,14 +74,26 @@ function MoonIcon(props: React.ComponentPropsWithoutRef<'svg'>) {
 
 function MobileNavItem({
   href,
+  newTab = false,
   children,
 }: {
   href: string
+  newTab?: boolean
   children: React.ReactNode
 }) {
   return (
     <li>
-      <Popover.Button as={Link} href={href} className="block py-2">
+      <Popover.Button
+        as={Link}
+        href={href}
+        {...(newTab
+          ? {
+              target: '_blank',
+              rel: 'noopener noreferrer',
+            }
+          : {})}
+        className="block py-2"
+      >
         {children}
       </Popover.Button>
     </li>
@@ -136,6 +148,9 @@ function MobileNavigation(
                 {/* <MobileNavItem href="/articles">Articles</MobileNavItem> */}
                 {/* <MobileNavItem href="/projects">Projects</MobileNavItem> */}
                 <MobileNavItem href="/uses">Uses</MobileNavItem>
+                <MobileNavItem href="https://cv.krl.is/" newTab>
+                  Resume
+                </MobileNavItem>
                 <MobileNavItem href="#contact">Hire me</MobileNavItem>
               </ul>
             </nav>
@@ -148,9 +163,11 @@ function MobileNavigation(
 
 function NavItem({
   href,
+  newTab = false,
   children,
 }: {
   href: string
+  newTab?: boolean
   children: React.ReactNode
 }) {
   let isActive = usePathname() === href
@@ -159,6 +176,12 @@ function NavItem({
     <li>
       <Link
         href={href}
+        {...(newTab
+          ? {
+              target: '_blank',
+              rel: 'noopener noreferrer',
+            }
+          : {})}
         className={clsx(
           'relative block px-3 py-2 transition',
           isActive
@@ -183,6 +206,9 @@ function DesktopNavigation(props: React.ComponentPropsWithoutRef<'nav'>) {
         {/* <NavItem href="/articles">Articles</NavItem> */}
         {/* <NavItem href="/projects">Projects</NavItem> */}
         <NavItem href="/uses">Uses</NavItem>
+        <NavItem href="https://cv.krl.is/" newTab>
+          Resume
+        </NavItem>
         <NavItem href="#contact">Hire me</NavItem>
       </ul>
     </nav>
