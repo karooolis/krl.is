@@ -2,7 +2,7 @@
   "rewrites": [
     {
       "source": "/cv/(.*)",
-      "destination": "https://cv-kduhz82ad-karooolis.vercel.app/$1"
+      "destination": "https://www.google.com/$1"
     }
   ]
 }
