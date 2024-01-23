@@ -48,10 +48,9 @@ export default function Uses() {
       <div className="space-y-20">
         <ToolsSection title="Workstation">
           <Tool title="14” MacBook Pro, M1, 16GB RAM (2021)">
-            I was using an Intel-based 16” MacBook Pro prior to this and the
-            difference is night and day. I’ve never heard the fans turn on a
-            single time, even under the incredibly heavy loads I put it through
-            with our various launch simulations.
+            Perfect balance of portability and power. While sometimes I wish for
+            a bigger screen, I love how light and portable this laptop is so I
+            can bring it everywhere.
           </Tool>
 
           {/* <Tool title="Apple Pro Display XDR (Standard Glass)">
@@ -60,16 +59,10 @@ export default function Uses() {
             you can get counts.
           </Tool> */}
 
-          <Tool title="Apple Magic Keyboard">
-            They don’t make keyboards the way they used to. I buy these any time
-            I see them go up for sale and keep them in storage in case I need
-            parts or need to retire my main.
-          </Tool>
-
-          <Tool title="Apple Magic Mouse">
-            Something about all the gestures makes me feel like a wizard with
-            special powers. I really like feeling like a wizard with special
-            powers.
+          <Tool title="Apple Magic Keyboard & Mouse">
+            Although the keyboard and mouse are very unergonomic, I still enjoy
+            working with them. However, looking to upgrade to a more
+            ergonomic keyboard and mouse in the future.
           </Tool>
 
           {/* <Tool title="Herman Miller Aeron Chair">
@@ -80,22 +73,27 @@ export default function Uses() {
 
         <ToolsSection title="Development tools">
           <Tool title="VS Code">
-            I don’t care if it’s missing all of the fancy IDE features everyone
-            else relies on, Sublime Text is still the best text editor ever
-            made.
+            Have been using VS Code for years. Love its extensive plugins
+            ecosystem, and customizability.
           </Tool>
 
           <Tool title="iTerm2">
-            I’m honestly not even sure what features I get with this that aren’t
-            just part of the macOS Terminal but it’s what I use.
+            Not sure how I ever lived without split panes.
+          </Tool>
+
+          <Tool title="GitHub Copilot">
+            Use it daily for code-completions, and it's been a huge time-saver.
           </Tool>
         </ToolsSection>
 
         <ToolsSection title="Design">
           <Tool title="Figma">
-            We started using Figma as just a design tool but now it’s become our
-            virtual whiteboard for the entire company. Never would have expected
-            the collaboration features to be the real hook.
+            While I'm not a designer, I still often use Figma to create
+            prototypes, design my own projects, or gather design inspiration.
+          </Tool>
+
+          <Tool title="Pixelmator">
+            Simpler to use than Photoshop, and has all the features I need.
           </Tool>
         </ToolsSection>
 
@@ -114,8 +112,9 @@ export default function Uses() {
           </Tool> */}
 
           <Tool title="Obsidian">
-            Great tool for scheduling meetings while protecting my calendar and
-            making sure I still have lots of time for deep work during the week.
+            Note-taking app that uses Markdown files stored on disk. I've been
+            using it to structure my notes, projects, organize my life, and
+            everything in-between.
           </Tool>
 
           <Tool title="SelfControl">
@@ -123,7 +122,10 @@ export default function Uses() {
             the work and get some momentum going.
           </Tool>
 
-          <Tool title="ActivityWatch">Productivity tracking, etc.</Tool>
+          <Tool title="ActivityWatch">
+            Time tracking tool I use to get a glimpse of my productivity levels,
+            and better understand how I spend my time on PC.
+          </Tool>
         </ToolsSection>
       </div>
     </SimpleLayout>
