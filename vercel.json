@@ -1,0 +1,8 @@
+{
+  "rewrites": [
+    {
+      "source": "/cv/:path*",
+      "destination": "https://cv-kduhz82ad-karooolis.vercel.app/:path*"
+    }
+  ]
+}
