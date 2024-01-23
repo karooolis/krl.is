@@ -2,7 +2,7 @@
   "rewrites": [
     {
       "source": "/cv",
-      "destination": "https://cv-one-nu.vercel.app"
+      "destination": "https://cv.krl.is/"
     }
   ]
 }
