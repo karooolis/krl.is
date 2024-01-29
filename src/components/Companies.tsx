@@ -7,12 +7,13 @@ import logoPlaceholderNFT from '@/images/projects-logos/placeholder-nft.png'
 import logoSmartContractsBuilder from '@/images/projects-logos/smart-contracts-builder.png'
 import logoExplainoor from '@/images/projects-logos/explainoor.png'
 
-import logoUber from '@/images/logos/uber.svg'
+import logoUber from '@/images/logos/uber-2.webp'
 import logoVolvo from '@/images/logos/volvo-cars.png'
 import logoNielsen from '@/images/logos/nielsen.png'
 import logoToptal from '@/images/logos/toptal.png'
 import logoBT from '@/images/logos/bt.svg'
 import logoMacro from '@/images/logos/macro-small.png'
+import logoWeb3Foundation from '@/images/logos/web3-min.svg'
 
 const projects = [
   {
@@ -76,60 +77,44 @@ export default function Projects() {
     >
       <ul
         role="list"
-        className="grid grid-cols-3 gap-x-12 gap-y-16 sm:grid-cols-3 lg:grid-cols-6"
+        className="grid grid-cols-4 gap-x-12 gap-y-16 sm:grid-cols-4 lg:grid-cols-7"
       >
-        <li>
+        <li className="flex items-center justify-center">
           <Image
             src={logoVolvo}
             alt=""
-            className="h-16 w-16 dark:invert"
+            className="w-16 dark:invert"
             unoptimized
           />
         </li>
 
-        <li>
+        <li className="flex items-center justify-center">
           <Image
             src={logoUber}
             alt=""
-            className="h-16 w-16 dark:invert"
+            className="w-16 dark:invert"
             unoptimized
           />
         </li>
 
-        <li>
-          <Image
-            src={logoNielsen}
-            alt=""
-            className="h-16 w-16"
-            unoptimized
-          />
+        <li className="flex items-center justify-center">
+          <Image src={logoNielsen} alt="" className="w-16" unoptimized />
         </li>
 
-        <li>
-          <Image
-            src={logoToptal}
-            alt=""
-            className="h-16 w-16"
-            unoptimized
-          />
+        <li className="flex items-center justify-center">
+          <Image src={logoWeb3Foundation} alt="" className="w-22" unoptimized />
         </li>
 
-        <li>
-          <Image
-            src={logoBT}
-            alt=""
-            className="h-16 w-16"
-            unoptimized
-          />
+        <li className="flex items-center justify-center">
+          <Image src={logoToptal} alt="" className="w-16" unoptimized />
         </li>
 
-        <li>
-          <Image
-            src={logoMacro}
-            alt=""
-            className="h-16 w-16"
-            unoptimized
-          />
+        <li className="flex items-center justify-center">
+          <Image src={logoBT} alt="" className="w-16" unoptimized />
+        </li>
+
+        <li className="flex items-center justify-center">
+          <Image src={logoMacro} alt="" className="w-16" unoptimized />
         </li>
       </ul>
 
