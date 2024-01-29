@@ -73,7 +73,7 @@ export default function Projects() {
     <SimpleLayout
       // title="Companies I’ve worked with."
       title="You’ll be in good company"
-      intro="I’ve worked with small and large organisations, along with freelance projects."
+      intro="I’ve worked with small and large organisations, along with freelance projects and grant programs."
     >
       <ul
         role="list"
