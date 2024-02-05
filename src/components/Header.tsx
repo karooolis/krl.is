@@ -151,7 +151,7 @@ function MobileNavigation(
                 <MobileNavItem href="https://cv.krl.is/" newTab>
                   Resume
                 </MobileNavItem>
-                <MobileNavItem href="#contact">Hire me</MobileNavItem>
+                <MobileNavItem href="#contact">Contact</MobileNavItem>
               </ul>
             </nav>
           </Popover.Panel>
@@ -209,7 +209,7 @@ function DesktopNavigation(props: React.ComponentPropsWithoutRef<'nav'>) {
         <NavItem href="https://cv.krl.is/" newTab>
           Resume
         </NavItem>
-        <NavItem href="#contact">Hire me</NavItem>
+        <NavItem href="#contact">Contact</NavItem>
       </ul>
     </nav>
   )
