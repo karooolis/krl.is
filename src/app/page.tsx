@@ -297,11 +297,6 @@ export default async function Home() {
             are your best channels.
           </p>
 
-          <p className="mt-6 text-lg text-zinc-600 dark:text-zinc-400">
-            P.S. If you like something you read here, please feel free to share
-            it and let me know. It's always nice to get feedback.
-          </p>
-
           {/* <ul>
             <li>A senior WordPress expert with over 10 years experience?</li>
             <li>
