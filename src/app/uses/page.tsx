@@ -122,9 +122,14 @@ export default function Uses() {
             the work and get some momentum going.
           </Tool>
 
-          <Tool title="ActivityWatch">
+          <Tool title="Rize">
             Time tracking tool I use to get a glimpse of my productivity levels,
             and better understand how I spend my time on PC.
+          </Tool>
+
+          <Tool title="Arc">
+            My new go-to browser. Love using the full-screen more, separated
+            profiles, and many other small but nice improvements and details.
           </Tool>
         </ToolsSection>
       </div>
