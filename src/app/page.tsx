@@ -273,8 +273,8 @@ export default async function Home() {
           <p className="mt-6 text-lg text-zinc-600 dark:text-zinc-400">
             My name is Karolis Ramanauskas 👋 I'm a full-stack software engineer
             who enjoys building products. I'm always on the lookout for more
-            efficient ways to ship reliable software. Currently, I mostly work
-            with TypeScript, React, Next.js, Node.js, and GraphQL.
+            efficient ways to ship reliable software. I mainly work
+            with React, Next.js, TypeScript, Node.js, GraphQL, Solidity.
           </p>
 
           <p className="mt-6 text-lg text-zinc-600 dark:text-zinc-400">
