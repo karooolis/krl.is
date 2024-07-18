@@ -28,13 +28,6 @@ const projects = [
     },
     logo: logoSmartContractsBuilder,
   },
-  // {
-  //   name: 'CoachGPT',
-  //   description:
-  //     'Real-time video streaming library, optimized for interstellar transmission.',
-  //   link: { href: '#', label: 'github.com' },
-  //   logo: logoHelioStream,
-  // },
   {
     name: 'Explainoor',
     description:
